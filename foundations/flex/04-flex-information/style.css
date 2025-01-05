@@ -8,8 +8,27 @@ img {
 }
 
 .title {
+  display: block;
   font-size: 36px;
   font-weight: 900;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.media,.plant {
+  display: flex;
+  margin-top:32px;
+  margin-left: 56px;
+  margin-right: 56px;
+  /* flex-direction: column; */
+}
+
+.plant {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 200px;
 }
 
 /* do not edit this footer */
